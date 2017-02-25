@@ -1,0 +1,28 @@
+{
+  "$schema": "https://statics.teams.microsoft.com/sdk/v0.2/manifest/MicrosoftTeams.schema.json",
+  "manifestVersion": "0.1",
+  "id": "com.serioussharepoint.productdevelopment.tab",
+  "version": "0.1",
+  "name": "Sample Tab",
+  "developer": {
+    "name": "Serious SharePoint",   
+    "websiteUrl": "http://serious-sharepoint.com",
+    "privacyUrl": "http://serious-sharepoint.com/apps/privacy",
+    "termsOfUseUrl": "http://serious-sharepoint.com/apps/termsofuse"
+  },
+  "description" : {
+    "short": "Gonna be the best.",
+    "full": "Gonna be the best, like noone ever was!"
+  },
+  "icons": {
+    "44": "pokeball44.png",
+    "88": "pokeball88.png"
+  },
+  "accentColor" : "#223344",
+  "configUrl": "https://teams-get-started-sample.azurewebsites.net/tabconfig.html",
+  "canUpdateConfig": true,
+  "needsIdentity": false,
+  "validDomains": [
+    "*.pokedex.org"
+  ]
+}

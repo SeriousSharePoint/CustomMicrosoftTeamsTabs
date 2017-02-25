@@ -1,0 +1,27 @@
+<html>
+<body>
+<script src="https://statics.teams.microsoft.com/sdk/v0.4/js/MicrosoftTeams.min.js"></script>
+
+<script type="text/javascript">  
+
+microsoftTeams.initialize();
+microsoftTeams.settings.registerOnSaveHandler(function(saveEvent){
+
+    microsoftTeams.settings.setSettings({
+         entityId: "pokedex"
+         contentUrl: "https://pokedex.org",
+         suggestedDisplayName: "Pokedex",
+         websiteUrl: "https://pokedex.org",
+         removeUrl: "https://teams-get-started-sample.azurewebsites.net/tabremove.html",
+      });
+
+    saveEvent.notifySuccess();
+});
+
+function onClick() {
+    microsoftTeams.settings.setValidityState(true);
+}
+
+</script>
+</body>
+</html>
