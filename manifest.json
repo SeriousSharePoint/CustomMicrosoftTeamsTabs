@@ -3,12 +3,12 @@
   "manifestVersion": "0.1",
   "id": "com.serioussharepoint.productdevelopment.tab",
   "version": "0.1",
-  "name": "Sample Tab",
+  "name": "Pokedex",
   "developer": {
     "name": "Serious SharePoint",   
-    "websiteUrl": "http://serious-sharepoint.com",
-    "privacyUrl": "http://serious-sharepoint.com/apps/privacy",
-    "termsOfUseUrl": "http://serious-sharepoint.com/apps/termsofuse"
+    "websiteUrl": "https://serious-sharepoint.com",
+    "privacyUrl": "https://serious-sharepoint.com/apps/privacy",
+    "termsOfUseUrl": "https://serious-sharepoint.com/apps/termsofuse"
   },
   "description" : {
     "short": "Gonna be the best.",
