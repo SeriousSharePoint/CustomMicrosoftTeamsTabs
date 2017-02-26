@@ -19,7 +19,7 @@
     "88": "pokeball88.png"
   },
   "accentColor" : "#223344",
-  "configUrl": "https://teams-get-started-sample.azurewebsites.net/tabconfig.html",
+  "configUrl": "https://raw.githubusercontent.com/SeriousSharePoint/CustomMicrosoftTeamsTabs/master/tabconfig.html",
   "canUpdateConfig": true,
   "needsIdentity": false,
   "validDomains": [
