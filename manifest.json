@@ -23,6 +23,6 @@
   "canUpdateConfig": true,
   "needsIdentity": false,
   "validDomains": [
-    "*.pokedex.org"
+    "*.pokedex.org" 
   ]
 }
